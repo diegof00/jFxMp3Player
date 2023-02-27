@@ -10,6 +10,7 @@ module com.example.mp3player {
     requires org.kordamp.bootstrapfx.core;
     requires eu.hansolo.tilesfx;
     requires com.almasb.fxgl.all;
+    requires lombok;
 
     opens com.example.mp3player to javafx.fxml;
     exports com.example.mp3player;
